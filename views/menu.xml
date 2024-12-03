@@ -1,0 +1,5 @@
+<odoo>
+    <menuitem id="menu_conge_root" name="conge" sequence="10"/>
+
+    <menuitem id="menu_conge_employee" name="employee" parent="menu_conge_root" sequence="10" action="action_conge_employee"/>
+</odoo>
